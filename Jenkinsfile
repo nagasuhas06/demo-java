@@ -15,8 +15,8 @@ pipeline {
             steps {
                 sh 'echo "i am Deploying"'
                 sh 'sudo cp /var/lib/jenkins/workspace/Pipeline2/target/demo.war /home/ubuntu/apache-tomcat-9.0.97/webapps' 
-                sh 'sudo bash /home/ubuntu/apache-tomcat-9.0.97/bin/.shutdown.sh'
-                sh 'sudo bash /home/ubuntu/apache-tomcat-9.0.97/bin/.startup.sh'  //comment
+                sh 'sudo bash /home/ubuntu/apache-tomcat-9.0.97/bin/shutdown.sh'
+                sh 'sudo bash /home/ubuntu/apache-tomcat-9.0.97/bin/startup.sh'  //comment
             }
         }
     }
