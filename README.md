@@ -77,6 +77,8 @@ Here are some notes on the initial generation of the project. The initial files 
 
 Change were made like adding a simple [Hello.java](src/main/java/Hello.java) Serlvet class.
 
+//snkjfsdhfiusdhlfhsdofsd
+
 The original command was:
 
     mvn archetype:generate \
